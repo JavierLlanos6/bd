@@ -1,0 +1,13 @@
+{
+    "usuarios":[
+        {
+            "id": 1,
+            "apellido_paterno": "Llanos",
+            "apellido_materno": "Guzman",
+            "nombre": "Javier",
+            "username": "admin",
+            "password": "827ccb0eea8a706c4c34a16891f84e7b" 
+            
+        }
+    ]
+}

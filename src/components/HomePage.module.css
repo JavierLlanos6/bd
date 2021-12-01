@@ -1,0 +1,35 @@
+.LeccionGrid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 600px);
+  gap: 130px;
+  padding: 20px;
+  justify-content: center;
+  margin-top: 10%;
+}
+.ImgStyle {
+  border-radius: 70px;
+  /* background-color: rgb(255, 136, 0); */
+  width: 400px;
+  animation-name: imganim;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+@keyframes imganim {
+  from {
+    transform: rotateZ(-15deg);
+  }
+  to {
+    transform: rotateZ(15deg);
+  }
+}
+@media (max-width: 400px) {
+  .LeccionGrid {
+    grid-template-columns: none;
+    gap: 0px;
+    padding: 0px;
+  }
+  .ImgStyle {
+    width: 300px;
+  }
+}

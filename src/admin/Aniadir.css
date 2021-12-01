@@ -1,0 +1,28 @@
+.VideoInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+  background: rgb(18, 0, 95);
+}
+
+.VideoInput_input {
+  display: none;
+  color: white;
+  width: 400px;
+  height: 400px;
+}
+
+.VideoInput_video {
+  display: block;
+  margin: 0;
+}
+
+.VideoInput_footer {
+  background: #eee;
+  width: 100%;
+  min-height: 40px;
+  line-height: 40px;
+  text-align: center;
+}

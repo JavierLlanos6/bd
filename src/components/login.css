@@ -1,0 +1,17 @@
+.containerPrincipal {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid blueviolet;
+  padding: 40px;
+  background-color: rgb(176, 119, 250);
+}
+
+.containerSecundario {
+  text-align: center;
+}
+.form-control {
+  border: 2px solid blueviolet;
+  background: rgb(228, 218, 238);
+}

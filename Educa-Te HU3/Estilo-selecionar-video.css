@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+
+html {
+	font-size: 16px;
+	background:url("Imagen/Videos.jpg");
+	margin: 0;
+	padding: 0;
+	background-size: cover;
+	background-position: center;
+}
+body {
+	font-family: Arial, sans-serif;
+	color: #fff;
+	max-width:600px;
+	margin:10px auto;
+}
+
+#titulo{
+	color: #000000;
+	position: relative;
+}
+
+#ventana anterior{
+	float: right;
+}
+
+.video-slider {
+	width: 100%;
+	height: 20em;
+	background: #444;
+	position: relative;
+	overflow: hidden;
+}
+.slide {
+	position: absolute;
+	top: 0;
+	left: 100%;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+}
+.slide:first-child{
+	left: 0;
+}
+.video{
+	height: 100%;
+	width: 100%;
+	border:0;
+}
+nav{
+	margin: 5px 0;
+}
+
+.slide-arrow{
+	position:relative;	
+	top: 0;
+	left: 0;
+	height: 45%;
+	width: 15%;
+	cursor: pointer;
+	margin: auto
+}
+.slide-arrow:hover{
+	opacity: 1;
+}
+.slide-arrow:after{
+	content: "\003c";
+	text-align: center;
+	display: block;
+	height: 10%;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: 3em;
+}
+
+.slide-arrow.right:after{
+	content: "\003e";
+}
+.slide-arrow.right{
+	float: right;
+	left: auto;
+	right: 0;
+}
+.slide-arrow.left{
+	float: left;
+}
+
+#videoSiguiente{
+	background-color: #A4272B;
+	border-radius: 10px;
+}
+
+#videoAnterior{
+	background-color: #A4272B;
+	border-radius: 10px;
+}

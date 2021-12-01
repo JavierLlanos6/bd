@@ -1,0 +1,62 @@
+.astronauta {
+  width: auto;
+  height: 100%;
+  max-height: 300px;
+  padding-right: 1px;
+}
+.btt {
+  /* margin-right: 5%; */
+  padding: 20px;
+  /* float: right; */
+  border-radius: 5px;
+  background-color: rgb(221, 127, 38);
+  border: 2px solid white;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  max-width: 200px;
+
+  height: auto;
+  left: 45%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+.bttIni {
+  /* margin-right: 5%; */
+  padding: 20px;
+  /* float: right; */
+  border-radius: 5px;
+  background-color: rgb(221, 127, 38);
+  border: 2px solid white;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  max-width: 200px;
+
+  height: auto;
+  left: 60%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: rgb(255, 153, 0);
+
+  text-align: center;
+  font-size: 60px;
+  font-family: "Butterfly Kids", cursive;
+}
+.texto {
+  justify-content: center;
+  display: flex;
+  /* color: white;
+  font-size: 4vw;
+  font-family: "Butterfly Kids", cursive; */
+}
+.texto2 {
+  font-size: 3vw;
+  font-family: "Butterfly Kids", cursive;
+  color: white;
+}

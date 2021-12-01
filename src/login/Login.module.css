@@ -1,0 +1,25 @@
+.containerPrincipal {
+    position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      border: 1px solid blue;
+      border-radius: 10px;
+      padding: 40px;
+      background-color: white;
+      
+  }
+  
+  .containerSecundario{
+    text-align: center;
+  }
+  .formcontrol{
+    width: 400px;
+
+  }
+  .btnInicio{
+    background-color: #4391F0;
+    border-radius: 5px;
+    margin-top: 20px;
+    height: 50px;
+  }
